@@ -14,7 +14,7 @@ class QuestionController extends AbstractController
      */
     public function homepage(): Response
     {
-        return new Response('What a bewitching controller we have conjured!');
+        return $this->render('questions/homepage.html.twig');
     }
 
     /**
